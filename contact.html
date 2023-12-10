@@ -9,6 +9,11 @@
       href="./img/fav-icon-img.png"
       type="image/x-icon"
     />
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -21,6 +26,444 @@
     <title>PetMatch - Contactanos</title>
   </head>
   <body>
+    <!-- Navbar -->
+    <div class="d-flex justify-content-center position-absolute w-100 mr">
+      <div class="container bg-white rounded-4 mx-auto">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./img/logo-img.jpg" alt="Logo" />
+            </a>
+            <button
+              class="navbar-toggler bg-white bg-color-second"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex gap-1">
+                <li class="nav-item">
+                  <a
+                    class="nav-link primary-color text-center fw-medium"
+                    href="./index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link primary-color text-center fw-medium"
+                    href="#"
+                    >Testimonios</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link primary-color text-center fw-medium"
+                    href="#"
+                    >Que ofrecemos</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link primary-color text-center fw-medium"
+                    href="./contact.html"
+                    >Contáctanos</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex justify-content-center" role="search">
+                <button
+                  class="btn button text-white py-2 rounded-pill fw-bold"
+                  type="submit"
+                >
+                  Encuentra
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <div class="bg-img d-flex justify-content-center">
+      <div
+        class="row d-flex justify-content-center align-items-center w-75 pt-5"
+      >
+        <div class="col-12 col-lg-6 d-flex justify-content-center">
+          <img
+            src="./img/contact-img.png"
+            alt="contact-img"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col">
+          <div>
+            <div
+              class="bg-blur p-5 rounded-4 box-shadow-lg bg-dark bg-opacity-10 d-flex flex-column justify-content-center align-items-center gap-3"
+            >
+              <h1 class="text-white fs-1 fw-bold">Contáctanos</h1>
+              <p class="text-center text-white fw-medium fs-5 lh-lg">
+                Si te interesa saber mas sobre PetMatch o ser miembros de
+                nosotros no dudes es escribirnos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cards Seccion -->
+    <div class="container py-5">
+      <div class="row d-flex justify-content-center gap-4">
+        <div
+          class="col-10 col-sm-6 col-md-5 col-lg-4 col-xl-3 position-relative d-flex justify-content-center align-items-center"
+        >
+          <img src="./img/cards.jpg" class="w-100" alt="card" />
+          <div
+            class="d-flex flex-column justify-content-center align-items-center position-absolute gap-1"
+          >
+            <i class="bi bi-house-door-fill fs-2 primary-color"></i>
+            <h3 class="fs-4 primary-color">Adopción</h3>
+            <p class="text-center w-75">
+              We gather problems and produce a research befetting the project
+              and the company.
+            </p>
+          </div>
+        </div>
+        <div
+          class="col-10 col-sm-6 col-md-5 col-lg-4 col-xl-3 position-relative d-flex justify-content-center align-items-center"
+        >
+          <img src="./img/cards.jpg" class="w-100" alt="card" />
+          <div
+            class="d-flex flex-column justify-content-center align-items-center position-absolute gap-1"
+          >
+            <i class="bi bi-heart-fill fs-2 primary-color"></i>
+            <h3 class="fs-4 primary-color">Rescate</h3>
+            <p class="text-center w-75">
+              We gather problems and produce a research befetting the project
+              and the company.
+            </p>
+          </div>
+        </div>
+        <div
+          class="col-10 col-sm-6 col-md-5 col-lg-4 col-xl-3 position-relative d-flex justify-content-center align-items-center"
+        >
+          <img src="./img/cards.jpg" class="w-100" alt="card" />
+          <div
+            class="d-flex flex-column justify-content-center align-items-center position-absolute gap-1"
+          >
+            <i class="bi bi-currency-dollar fs-2 primary-color"></i>
+            <h3 class="fs-4 primary-color">Donación</h3>
+            <p class="text-center w-75">
+              We gather problems and produce a research befetting the project
+              and the company.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Donation Seccion -->
+    <div class="container py-5">
+      <div class="row d-flex justify-content-center gap-5">
+        <div
+          class="col-12 col-lg-6 position-relative d-flex justify-content-center"
+        >
+          <img
+            src="./img/donation-img.jpg"
+            alt="donation-img"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col d-flex flex-column align-items-start gap-2">
+          <img src="./img/logo-img.jpg" alt="logo-img" />
+          <p>
+            En PetMatch puedes hacer donaciones a las fundaciones verificadas
+            que desees
+          </p>
+          <div class="mb-2">
+            <label class="mb-2"
+              >Agrega la fundación a la que quieres donar</label
+            >
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Selecciona la fundación</option>
+              <option value="1">Fundación Huella Animal</option>
+              <option value="2">Fundación Julieta</option>
+              <option value="3">Chile Mestizo</option>
+            </select>
+          </div>
+          <div>
+            <label>Elija un monto de donación</label>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios1"
+                value="option1"
+                checked
+              />
+              <label class="form-check-label" for="exampleRadios1">
+                $5.000
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios2"
+                value="option2"
+              />
+              <label class="form-check-label" for="exampleRadios2">
+                $10.000
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios3"
+                value="option3"
+              />
+              <label class="form-check-label" for="exampleRadios3">
+                $15.000
+              </label>
+            </div>
+          </div>
+          <a href="">Ingrese un monto de donación personalizado</a>
+          <label>Elija una frecuencia de donación</label>
+          <div class="d-flex align-items-center gap-2">
+            <button
+              type="button"
+              class="btn bg-secondary-color button text-white fw-medium"
+            >
+              Mensual
+            </button>
+            <button type="button" class="btn bg-grey button fw-medium">
+              Una Vez
+            </button>
+          </div>
+          <p class="m-0">Cada peso cuenta, Muchas gracias por aportar</p>
+          <div class="d-flex align-items-center gap-2">
+            <button
+              type="button"
+              class="btn bg-secondary-color text-white fw-medium"
+            >
+              Cancelar
+            </button>
+            <button
+              type="button"
+              class="btn bg-primary-color text-white fw-medium"
+            >
+              Ir a pagar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQs Seccion -->
+    <div class="container py-5 w-75">
+      <div class="row d-flex justify-content-center">
+        <h3 class="text-center primary-color">Preguntas frecuentes</h3>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed bg-primary-color text-white rounded-top"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                ¿Cómo puedo adoptar una mascota publicada?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Puedes adoptar una mascota, rellenando la solicitud de adopción
+                y esperando la evaluación final por parte de PetMatch.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed bg-primary-color text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                ¿Si encontré una mascota y quiero publicarla, debo pagar?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                No, las publicaciones son gratuitas.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed bg-primary-color text-white rounded-bottom"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                ¿Necesito ser socio de PetMacht para donar?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">No, puedes donar sin ser socio.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- App Seccion -->
+    <div class="container py-5">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col">
+          <img src="./img/app-img.jpg" class="img-fluid" alt="app" />
+        </div>
+        <div class="col">
+          <h3 class="secondary-color fs-2">
+            Encuentra
+            <span class="primary-color">tu compañero de por vida</span>
+          </h3>
+          <h3 class="secondary-color fs-2">
+            ¡Haz Match
+            <span class="primary-color">con nuestra app de adopción!</span>
+          </h3>
+          <div class="d-flex gap-3">
+            <button
+              class="btn button fs-5 fw-medium rounded-5 d-flex justify-content-center align-items-center gap-2 py-2 px-5 text-white"
+            >
+              <i class="bi bi-apple fs-3"></i>App store
+            </button>
+            <button
+              class="btn button fs-5 fw-medium rounded-5 d-flex justify-content-center align-items-center gap-2 py-2 px-5 text-white"
+            >
+              <i class="bi bi-google-play fs-3"></i>google play
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid bg-primary-color">
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="text-white">Compañía</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Sobre nosotros</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Privacidad y Términos</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="text-white">Servicios</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Para Organizaciones</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Para adoptantes</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="text-white">Apoyo</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Apoyo@Petmatch.com</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Centro de ayuda</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Preguntas frecuentes</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Charlar</a>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-md-5 d-flex justify-content-end align-items-start offset-md-1 mb-3"
+            >
+              <img src="./img/logo-img.png" alt="logo-img" />
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+          >
+            <p class="text-white">&copy; 2023 PetMatch</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <i class="bi bi-facebook text-white fs-2"></i>
+              </li>
+              <li class="ms-3">
+                <i class="bi bi-instagram text-white fs-2"></i>
+              </li>
+              <li class="ms-3">
+                <i class="bi bi-twitter-x text-white fs-2"></i>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+
     <!-- Bootstrap JavaScript -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

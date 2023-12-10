@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Poppins:wght@700&display=swap");
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+h1,
+h3,
+span {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary-color: #18254c;
+  --secondary-color: #e62e6b;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+.bg-primary-color {
+  background-color: var(--primary-color);
+}
+
+.bg-secondary-color {
+  background-color: var(--secondary-color);
+}
+
+.button {
+  background-color: var(--secondary-color);
+}
+
+.button:hover {
+  background-color: #bd2759;
+}
+
+.bg-img {
+  background-image: url(../img/test.png);
+  padding-top: 5rem;
+}
+
+.bg-blur {
+  backdrop-filter: blur(4px);
+}
+
+.mr {
+  top: 20px;
+}
+
+.bg-subscribe {
+  background-image: url(../img/suscribe-img.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.input-border {
+  border: var(--primary-color) 2px solid;
+}

@@ -9,6 +9,16 @@
       href="./img/fav-icon-img.png"
       type="image/x-icon"
     />
+    <!-- Swiper Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -21,11 +31,516 @@
     <title>PetMatch - Inicio</title>
   </head>
   <body>
+    <!-- Navbar -->
+    <div class="d-flex justify-content-center position-absolute w-100 mr">
+      <div class="container bg-white rounded-4 mx-auto">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./img/logo-img.jpg" alt="Logo" />
+            </a>
+            <button
+              class="navbar-toggler bg-white bg-color-second"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex gap-1">
+                <li class="nav-item">
+                  <a
+                    class="nav-link primary-color text-center fw-medium"
+                    href="./index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link primary-color text-center fw-medium"
+                    href="#"
+                    >Testimonios</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link primary-color text-center fw-medium"
+                    href="#"
+                    >Que ofrecemos</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link primary-color text-center fw-medium"
+                    href="./contact.html"
+                    >Contáctanos</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex justify-content-center" role="search">
+                <button
+                  class="btn button text-white py-2 px-4 rounded-pill fw-bold"
+                  type="submit"
+                >
+                  Encuentra
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <div class="bg-img d-flex justify-content-center">
+      <div
+        class="row d-flex justify-content-center align-items-center w-75 pt-5"
+      >
+        <div class="col-12 col-lg-6 d-flex justify-content-center">
+          <img src="./img/test2.png" alt="test2" class="img-fluid" />
+        </div>
+        <div class="col">
+          <div
+            class="bg-blur p-5 rounded-4 box-shadow-lg bg-dark bg-opacity-10 d-flex flex-column justify-content-center align-items-center gap-3"
+          >
+            <h1 class="text-white fs-1 fw-bold">
+              ¡Conecta <br />
+              y Adopta!
+            </h1>
+            <div class="w-100 d-flex justify-content-center gap-2 flex-wrap">
+              <button
+                class="btn button text-white rounded-pill fw-bold d-flex align-items-center gap-4 px-3"
+                type="button"
+              >
+                <i class="bi bi-apple fs-3"></i>
+                App store
+              </button>
+              <button
+                class="btn button text-white rounded-pill fw-bold d-flex align-items-center gap-4 px-3"
+                type="button"
+              >
+                <i class="bi bi-google-play fs-3"></i>
+                google play
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- What is Petmatch -->
+    <div class="container py-5">
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
+          <h3 class="primary-color fw-bold fs-1">¿Que es PetMatch?</h3>
+          <p class="primary-color text-center fw-medium lh-lg w-75">
+            PetMatch es una app ideal que te ayudara a la adopción de mascotas,
+            es muy intuitiva y fácil de usar, en menos de un minuto podrás
+            encontrar a tu mascota ideal.
+          </p>
+          <p class="secondary-color text-center fw-bold fs-5">
+            ¡Descarga la app gratuita <br />
+            de PetMatch ahora!
+          </p>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <img
+            src="./img/what-is-img.jpg"
+            alt="what-is-img"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Number Seccion -->
+    <div class="container py-5">
+      <div class="row d-flex gap-5 justify-content-center">
+        <div class="col-auto d-flex flex-column align-items-center gap-2">
+          <h3 class="primary-color fs-1 fw-bold">+122</h3>
+          <p class="primary-color text-center fw-medium">
+            Animales <br />
+            adoptados
+          </p>
+        </div>
+        <div class="col-auto d-flex flex-column align-items-center gap-2">
+          <h3 class="primary-color fs-1 fw-bold">30K</h3>
+          <p class="primary-color text-center fw-medium">
+            Usuarios <br />
+            totales
+          </p>
+        </div>
+        <div class="col-auto d-flex flex-column align-items-center gap-2">
+          <h3 class="primary-color fs-1 fw-bold">120</h3>
+          <p class="primary-color text-center fw-medium">
+            Fundaciones <br />
+            Registradas
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial -->
+    <div id="carouselExample" class="carousel slide py-5">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="col d-flex justify-content-center">
+            <div class="card bg-primary-color w-75 p-4">
+              <div class="card-body d-flex flex-column gap-3">
+                <div class="d-flex align-items-center gap-3">
+                  <img
+                    src="./img/testimonial-avatar-img.jpg"
+                    alt="testimonial-avatar-img"
+                  />
+                  <div>
+                    <h5 class="card-title text-white">Jazmin</h5>
+                    <div>
+                      <i class="bi bi-star-fill secondary-color"></i>
+                      <i class="bi bi-star-fill secondary-color"></i>
+                      <i class="bi bi-star-fill secondary-color"></i>
+                      <i class="bi bi-star-fill secondary-color"></i>
+                      <i class="bi bi-star-fill secondary-color"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="card-text text-white">
+                  "La app es increíble!! Es una app fácil y sencilla de usar, al
+                  momento de que querer adoptar una mascota no sabía por donde
+                  empezar, pero gracias a PetMatch puede entrar mi mascota ideal
+                  en cuestión de minutos.”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col d-flex justify-content-center">
+            <div class="card bg-primary-color w-75 p-4">
+              <div class="card-body d-flex flex-column gap-3">
+                <div class="d-flex align-items-center gap-3">
+                  <img
+                    src="./img/testimonial-avatar-img.jpg"
+                    alt="testimonial-avatar-img"
+                  />
+                  <div>
+                    <h5 class="card-title text-white">Jazmin</h5>
+                    <div>
+                      <i class="bi bi-star-fill secondary-color"></i>
+                      <i class="bi bi-star-fill secondary-color"></i>
+                      <i class="bi bi-star-fill secondary-color"></i>
+                      <i class="bi bi-star-fill secondary-color"></i>
+                      <i class="bi bi-star-fill secondary-color"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="card-text text-white">
+                  "La app es increíble!! Es una app fácil y sencilla de usar, al
+                  momento de que querer adoptar una mascota no sabía por donde
+                  empezar, pero gracias a PetMatch puede entrar mi mascota ideal
+                  en cuestión de minutos.”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col d-flex justify-content-center">
+            <div class="card bg-primary-color w-75 p-4">
+              <div class="card-body d-flex flex-column gap-3">
+                <div class="d-flex align-items-center gap-3">
+                  <img
+                    src="./img/testimonial-avatar-img.jpg"
+                    alt="testimonial-avatar-img"
+                  />
+                  <div>
+                    <h5 class="card-title text-white">Jazmin</h5>
+                    <div>
+                      <i class="bi bi-star-fill secondary-color"></i>
+                      <i class="bi bi-star-fill secondary-color"></i>
+                      <i class="bi bi-star-fill secondary-color"></i>
+                      <i class="bi bi-star-fill secondary-color"></i>
+                      <i class="bi bi-star-fill secondary-color"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="card-text text-white">
+                  "La app es increíble!! Es una app fácil y sencilla de usar, al
+                  momento de que querer adoptar una mascota no sabía por donde
+                  empezar, pero gracias a PetMatch puede entrar mi mascota ideal
+                  en cuestión de minutos.”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <i class="bi bi-arrow-left-circle-fill primary-color fs-1"></i>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <i class="bi bi-arrow-right-circle-fill primary-color fs-1"></i>
+      </button>
+    </div>
+
+    <!-- Match -->
+    <div class="container p-5">
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
+          <h3 class="primary-color fw-bold fs-1">Match</h3>
+          <p class="primary-color text-center fw-medium lh-lg w-75">
+            Encontrarás una lista de mascotas disponibles para adopción. Donde
+            cada mascota contara con una foto y descripción en detalle, como su
+            edad, género, historial médico y comportamiento.
+          </p>
+          <p class="secondary-color fw-bold fs-5">Adopta!</p>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <img src="./img/match-img.jpg" alt="what-is-img" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Chat -->
+    <div class="container py-5">
+      <div
+        class="row d-flex align-items-center justify-content-center flex-wrap-reverse"
+      >
+        <div class="col d-flex justify-content-center">
+          <img src="./img/chat-img.jpg" alt="chat-img" class="img-fluid" />
+        </div>
+        <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
+          <h3 class="primary-color fw-bold fs-1">Chat Interactivo</h3>
+          <p class="primary-color text-center fw-medium lh-lg w-75">
+            Conéctate con amantes de las mascotas y fundaciones que buscan hogar
+            para sus animales.
+          </p>
+          <p class="secondary-color text-center fw-bold fs-5">
+            Con tan solo un click!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Request Seccion -->
+    <div class="container py-5">
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
+          <h3 class="primary-color fw-bold fs-1 text-center">
+            Realiza Solicitudes de adopción
+          </h3>
+          <p class="primary-color text-center fw-medium lh-lg w-75">
+            Comienza el proceso de adopción de mascotas en cuestión de minutos
+          </p>
+          <p class="secondary-color text-center fw-bold fs-5">
+            Completa nuestro formulario
+          </p>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <img
+            src="./img/form-img.jpg"
+            alt="Formulario PetMatch"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Fundations -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col">
+          <div class="swiper w-75">
+            <div class="swiper-wrapper d-flex align-items-center">
+              <div
+                class="swiper-slide d-flex justify-content-center align-items-center"
+              >
+                <img src="./img/fun-one-img.jpg" alt="fun-one-img" />
+              </div>
+              <div
+                class="swiper-slide d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="./img/fun-two-img.jpg"
+                  alt="fun-two-img
+                "
+                />
+              </div>
+              <div
+                class="swiper-slide d-flex justify-content-center align-items-center"
+              >
+                <img src="./img/fun-three-img.jpg" alt="fun-three-img" />
+              </div>
+              <div
+                class="swiper-slide d-flex justify-content-center align-items-center"
+              >
+                <img src="./img/fun-four-img.jpg" alt="fun-four-img" />
+              </div>
+              <div
+                class="swiper-slide d-flex justify-content-center align-items-center"
+              >
+                <img src="./img/fun-five-img.jpg" alt="fun-five-img" />
+              </div>
+              <div
+                class="swiper-slide d-flex justify-content-center align-items-center"
+              >
+                <img src="./img/fun-six-img.jpg" alt="fun-six-img" />
+              </div>
+              <div
+                class="swiper-slide d-flex justify-content-center align-items-center"
+              >
+                <img src="./img/fun-seven-img.jpg" alt="fun-seven-img" />
+              </div>
+              <div
+                class="swiper-slide d-flex justify-content-center align-items-center"
+              >
+                <img src="./img/fun-eigth-img.jpg" alt="fun-eigth-img" />
+              </div>
+              <div
+                class="swiper-slide d-flex justify-content-center align-items-center"
+              >
+                <img src="./img/fun-nine-img.jpg" alt="fun-nine-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Suscribe -->
+    <div class="container py-5">
+      <div class="row d-flex justify-content-center bg-subscribe">
+        <div class="col d-flex flex-column align-items-end py-5">
+          <h3 class="primary-color fs-1 fw-bold">Suscríbete!</h3>
+          <hr class="line__suscribe border-0 opacity-100" />
+          <p class="primary-color text-center fw-medium fs-5">
+            Se parte de esta comunidad
+          </p>
+        </div>
+        <div class="col d-flex flex-column align-items-start py-5">
+          <div class="d-flex flex-column align-items-center gap-4">
+            <input
+              type="email"
+              class="form__input rounded-3 py-2 px-3 input-border"
+              placeholder="Ingresa Tu Email"
+            />
+            <button
+              class="btn button text-white fw-medium border-0 rounded-5 py-3 px-4"
+            >
+              SUSCRIBIRSE
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer  -->
+    <div class="container-fluid bg-primary-color">
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="text-white">Compañía</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Sobre nosotros</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Privacidad y Términos</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="text-white">Servicios</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Para Organizaciones</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Para adoptantes</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="text-white">Apoyo</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Apoyo@Petmatch.com</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Centro de ayuda</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Preguntas frecuentes</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Charlar</a>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-md-5 d-flex justify-content-end align-items-start offset-md-1 mb-3"
+            >
+              <img src="./img/logo-img.png" alt="logo-img" />
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+          >
+            <p class="text-white">&copy; 2023 PetMatch</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <i class="bi bi-facebook text-white fs-2"></i>
+              </li>
+              <li class="ms-3">
+                <i class="bi bi-instagram text-white fs-2"></i>
+              </li>
+              <li class="ms-3">
+                <i class="bi bi-twitter-x text-white fs-2"></i>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+
     <!-- Bootstrap JavaScript -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!-- Swiper Library -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
