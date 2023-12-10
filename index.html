@@ -9,6 +9,8 @@
       href="./img/fav-icon-img.png"
       type="image/x-icon"
     />
+    <!-- Animate Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Swiper Library -->
     <link
       rel="stylesheet"
@@ -159,24 +161,24 @@
 
     <!-- Number Seccion -->
     <div class="container py-5">
-      <div class="row d-flex gap-5 justify-content-center">
+      <div class="row d-flex gap-flex justify-content-center">
         <div class="col-auto d-flex flex-column align-items-center gap-2">
-          <h3 class="primary-color fs-1 fw-bold">+122</h3>
-          <p class="primary-color text-center fw-medium">
+          <h3 class="primary-color text-size fw-bold">+122</h3>
+          <p class="primary-color text-center fs-5 fw-bold">
             Animales <br />
             adoptados
           </p>
         </div>
         <div class="col-auto d-flex flex-column align-items-center gap-2">
-          <h3 class="primary-color fs-1 fw-bold">30K</h3>
-          <p class="primary-color text-center fw-medium">
+          <h3 class="primary-color text-size fw-bold">30K</h3>
+          <p class="primary-color text-center fs-5 fw-bold">
             Usuarios <br />
             totales
           </p>
         </div>
         <div class="col-auto d-flex flex-column align-items-center gap-2">
-          <h3 class="primary-color fs-1 fw-bold">120</h3>
-          <p class="primary-color text-center fw-medium">
+          <h3 class="primary-color text-size fw-bold">120</h3>
+          <p class="primary-color text-center fs-5 fw-bold">
             Fundaciones <br />
             Registradas
           </p>
@@ -299,7 +301,10 @@
     <!-- Match -->
     <div class="container p-5">
       <div class="row d-flex align-items-center justify-content-center">
-        <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
+        <div
+          class="col-12 col-lg-6 d-flex flex-column align-items-center"
+          data-aos="fade-right"
+        >
           <h3 class="primary-color fw-bold fs-1">Match</h3>
           <p class="primary-color text-center fw-medium lh-lg w-75">
             Encontrarás una lista de mascotas disponibles para adopción. Donde
@@ -308,7 +313,7 @@
           </p>
           <p class="secondary-color fw-bold fs-5">Adopta!</p>
         </div>
-        <div class="col d-flex justify-content-center">
+        <div class="col d-flex justify-content-center" data-aos="fade-left">
           <img src="./img/match-img.jpg" alt="what-is-img" class="img-fluid" />
         </div>
       </div>
@@ -319,10 +324,13 @@
       <div
         class="row d-flex align-items-center justify-content-center flex-wrap-reverse"
       >
-        <div class="col d-flex justify-content-center">
+        <div class="col d-flex justify-content-center" data-aos="fade-right">
           <img src="./img/chat-img.jpg" alt="chat-img" class="img-fluid" />
         </div>
-        <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
+        <div
+          class="col-12 col-lg-6 d-flex flex-column align-items-center"
+          data-aos="fade-left"
+        >
           <h3 class="primary-color fw-bold fs-1">Chat Interactivo</h3>
           <p class="primary-color text-center fw-medium lh-lg w-75">
             Conéctate con amantes de las mascotas y fundaciones que buscan hogar
@@ -338,7 +346,10 @@
     <!-- Request Seccion -->
     <div class="container py-5">
       <div class="row d-flex align-items-center justify-content-center">
-        <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
+        <div
+          class="col-12 col-lg-6 d-flex flex-column align-items-center"
+          data-aos="fade-right"
+        >
           <h3 class="primary-color fw-bold fs-1 text-center">
             Realiza Solicitudes de adopción
           </h3>
@@ -349,7 +360,7 @@
             Completa nuestro formulario
           </p>
         </div>
-        <div class="col d-flex justify-content-center">
+        <div class="col d-flex justify-content-center" data-aos="fade-left">
           <img
             src="./img/form-img.jpg"
             alt="Formulario PetMatch"
@@ -541,6 +552,9 @@
     ></script>
     <!-- Swiper Library -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Animate Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Local JavaScript -->
     <script src="./js/index.js"></script>
   </body>
 </html>

@@ -61,3 +61,11 @@ span {
 .input-border {
   border: var(--primary-color) 2px solid;
 }
+
+.text-size {
+  font-size: 4rem;
+}
+
+.gap-flex {
+  gap: 7rem;
+}
