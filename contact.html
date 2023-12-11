@@ -78,7 +78,7 @@
               </ul>
               <form class="d-flex justify-content-center" role="search">
                 <button
-                  class="btn button text-white py-2 rounded-pill fw-bold"
+                  class="btn bg-secondary-color button text-white py-2 rounded-pill fw-bold"
                   type="submit"
                 >
                   Encuentra
@@ -118,6 +118,48 @@
       </div>
     </div>
 
+    <!-- Form Seccion -->
+    <div class="container py-5">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col d-flex flex-column align-items-center gap-2">
+          <h3 class="text-center primary-color fs-1">Contactanos</h3>
+          <p class="primary-color text-center fw-bold fs-5">
+            Necesitas ayuda para darle un <br />
+            hogar a una mascota necesitada?
+          </p>
+          <p class="secondary-color text-center fw-bold fs-6 w-75">
+            completa nuestro formulario de adopción a continuación. Nos
+            pondremos en contacto contigo lo antes posible para discutir las
+            opciones de adopción y programar una visita.
+          </p>
+        </div>
+        <div class="col d-flex flex-column align-items-center">
+          <form class="d-flex flex-column bg-primary-color p-5 rounded-4">
+            <h3 class="mb-4 text-white text-center">Formulario</h3>
+            <label class="text-white fw-medium">Nombre:</label>
+            <input type="text" class="mb-2 py-1 px-1" placeholder="Nombre" />
+
+            <label class="text-white fw-medium">Apellido:</label>
+            <input type="text" class="mb-2 py-1 px-1" placeholder="Apellido" />
+
+            <label class="text-white fw-medium">Correo:</label>
+            <input type="text" class="mb-2 py-1 px-1" placeholder="Correo" />
+
+            <label class="text-white fw-medium">Comentario:</label>
+            <textarea
+              cols="30"
+              rows="7"
+              class="mb-2 px-1"
+              placeholder="Comentario"
+            ></textarea>
+            <button class="btn bg-secondary-color button text-white fw-bold">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
     <!-- Cards Seccion -->
     <div class="container py-5">
       <div class="row d-flex justify-content-center gap-4">
@@ -130,9 +172,8 @@
           >
             <i class="bi bi-house-door-fill fs-2 primary-color"></i>
             <h3 class="fs-4 primary-color">Adopción</h3>
-            <p class="text-center w-75">
-              We gather problems and produce a research befetting the project
-              and the company.
+            <p class="text-center primary-color fw-medium w-75">
+              Creemos en unir corazones peludos con hogares amorosos.
             </p>
           </div>
         </div>
@@ -145,9 +186,9 @@
           >
             <i class="bi bi-heart-fill fs-2 primary-color"></i>
             <h3 class="fs-4 primary-color">Rescate</h3>
-            <p class="text-center w-75">
-              We gather problems and produce a research befetting the project
-              and the company.
+            <p class="text-center primary-color fw-medium w-75">
+              Descubre cómo puedes ser parte de esta hermosa historia de
+              rescate.
             </p>
           </div>
         </div>
@@ -158,11 +199,11 @@
           <div
             class="d-flex flex-column justify-content-center align-items-center position-absolute gap-1"
           >
-            <i class="bi bi-currency-dollar fs-2 primary-color"></i>
+            <i class="bi bi-hearts fs-2 primary-color"></i>
             <h3 class="fs-4 primary-color">Donación</h3>
-            <p class="text-center w-75">
-              We gather problems and produce a research befetting the project
-              and the company.
+            <p class="text-center primary-color fw-medium w-75">
+              Nuestra sección de donaciones es una oportunidad para que te
+              conviertas en un héroe.
             </p>
           </div>
         </div>
@@ -181,7 +222,9 @@
             class="img-fluid"
           />
         </div>
-        <div class="col d-flex flex-column align-items-start gap-2">
+        <div
+          class="col d-flex flex-column align-items-start gap-2 input-border rounded-4 p-5"
+        >
           <img src="./img/logo-img.jpg" alt="logo-img" />
           <p>
             En PetMatch puedes hacer donaciones a las fundaciones verificadas
@@ -238,16 +281,21 @@
               </label>
             </div>
           </div>
-          <a href="">Ingrese un monto de donación personalizado</a>
+          <a href="#" class="secondary-color"
+            >Ingrese un monto de donación personalizado</a
+          >
           <label>Elija una frecuencia de donación</label>
           <div class="d-flex align-items-center gap-2">
             <button
               type="button"
-              class="btn bg-secondary-color button text-white fw-medium"
+              class="btn button bg-secondary-color text-white fw-medium py-2 px-4"
             >
               Mensual
             </button>
-            <button type="button" class="btn bg-grey button fw-medium">
+            <button
+              type="button"
+              class="btn button bg-secondary-color text-white fw-medium py-2 px-4"
+            >
               Una Vez
             </button>
           </div>
@@ -255,13 +303,13 @@
           <div class="d-flex align-items-center gap-2">
             <button
               type="button"
-              class="btn bg-secondary-color text-white fw-medium"
+              class="btn button bg-secondary-color text-white fw-medium py-2 px-4"
             >
               Cancelar
             </button>
             <button
               type="button"
-              class="btn bg-primary-color text-white fw-medium"
+              class="btn button-second bg-primary-color text-white fw-medium py-2 px-4"
             >
               Ir a pagar
             </button>
@@ -350,26 +398,32 @@
     <!-- App Seccion -->
     <div class="container py-5">
       <div class="row d-flex justify-content-center align-items-center">
-        <div class="col">
+        <div class="col d-flex justify-content-center align-items-center">
           <img src="./img/app-img.jpg" class="img-fluid" alt="app" />
         </div>
-        <div class="col">
-          <h3 class="secondary-color fs-2">
+        <div class="col d-flex flex-column gap-4">
+          <h3 class="secondary-color fs-3">
             Encuentra
-            <span class="primary-color">tu compañero de por vida</span>
+            <span class="primary-color"
+              >tu compañero de <br />
+              por vida</span
+            >
           </h3>
-          <h3 class="secondary-color fs-2">
+          <h3 class="secondary-color fs-3">
             ¡Haz Match
-            <span class="primary-color">con nuestra app de adopción!</span>
+            <span class="primary-color"
+              >con nuestra app <br />
+              de adopción!</span
+            >
           </h3>
           <div class="d-flex gap-3">
             <button
-              class="btn button fs-5 fw-medium rounded-5 d-flex justify-content-center align-items-center gap-2 py-2 px-5 text-white"
+              class="btn bg-secondary-color button fs-5 fw-medium rounded-5 d-flex justify-content-center align-items-center gap-2 py-1 px-5 text-white"
             >
               <i class="bi bi-apple fs-3"></i>App store
             </button>
             <button
-              class="btn button fs-5 fw-medium rounded-5 d-flex justify-content-center align-items-center gap-2 py-2 px-5 text-white"
+              class="btn bg-secondary-color button fs-5 fw-medium rounded-5 d-flex justify-content-center align-items-center gap-2 py-1 px-5 text-white"
             >
               <i class="bi bi-google-play fs-3"></i>google play
             </button>
@@ -440,7 +494,7 @@
             <div
               class="col-md-5 d-flex justify-content-end align-items-start offset-md-1 mb-3"
             >
-              <img src="./img/logo-img.png" alt="logo-img" />
+              <img src="./img/logo-footer.png" alt="logo-img" />
             </div>
           </div>
 
