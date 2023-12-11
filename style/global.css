@@ -68,3 +68,7 @@ span {
 .gap-flex {
   gap: 5rem;
 }
+
+.w-container {
+  width: 90%;
+}
