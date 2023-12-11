@@ -1,3 +1,5 @@
+/* CSS General */
+
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Poppins:wght@700&display=swap");
 
 * {
@@ -10,18 +12,14 @@ span {
   font-family: "Poppins", sans-serif;
 }
 
+/* Variables */
+
 :root {
   --primary-color: #18254c;
   --secondary-color: #e62e6b;
 }
 
-.primary-color {
-  color: var(--primary-color);
-}
-
-.secondary-color {
-  color: var(--secondary-color);
-}
+/* Backgrounds */
 
 .bg-primary-color {
   background-color: var(--primary-color);
@@ -31,6 +29,32 @@ span {
   background-color: var(--secondary-color);
 }
 
+.bg-img {
+  background-image: url(../img/test.png);
+  padding-top: 5rem;
+}
+
+.bg-subscribe {
+  background-image: url(../img/suscribe-img.png);
+  background-repeat: no-repeat;
+}
+
+.bg-blur {
+  backdrop-filter: blur(4px);
+}
+
+/* Colors */
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+/* Buttons style */
+
 .button:hover {
   background-color: #d12d64;
 }
@@ -39,22 +63,14 @@ span {
   background-color: #1d2e61;
 }
 
-.bg-img {
-  background-image: url(../img/test.png);
-  padding-top: 5rem;
-}
+/* Sizes */
 
-.bg-blur {
-  backdrop-filter: blur(4px);
+.w-container {
+  width: 90%;
 }
 
 .mr {
   top: 20px;
-}
-
-.bg-subscribe {
-  background-image: url(../img/suscribe-img.png);
-  background-repeat: no-repeat;
 }
 
 .input-border {
@@ -69,6 +85,8 @@ span {
   gap: 5rem;
 }
 
-.w-container {
-  width: 90%;
+/* Bootstrap */
+
+.accordion-button:not(.collapsed) {
+  background-color: #263974;
 }
